@@ -1,9 +1,9 @@
 package com.hafizrahmadhani.movie.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
@@ -55,6 +55,5 @@ class MovieDetailActivity : AppCompatActivity() {
         binding.movDescription.text = movie.description
         binding.movDate.text = movie.date
         binding.movGenre.text = movie.genre
-
     }
 }

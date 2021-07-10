@@ -1,7 +1,7 @@
 package com.hafizrahmadhani.movie.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.tabs.TabLayoutMediator
 import com.hafizrahmadhani.movie.adapter.PagerAdapter
 import com.hafizrahmadhani.movie.databinding.ActivityMainBinding
@@ -28,5 +28,4 @@ class MainActivity : AppCompatActivity() {
             }.attach()
         }
     }
-
 }
