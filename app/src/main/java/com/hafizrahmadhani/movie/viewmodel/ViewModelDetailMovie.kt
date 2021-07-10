@@ -16,7 +16,6 @@ class ViewModelDetailMovie (private val movieRepository: MovieRepository) : View
 
     fun getLoading(): LiveData<Boolean> = loading
 
-
     fun callMovie(idMovie : Int){
         callData = movieRepository.callDetailMovie(idMovie)
     }
