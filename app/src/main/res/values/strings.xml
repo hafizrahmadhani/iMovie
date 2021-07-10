@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="imovie">IMovie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="poster">poster</string>
+    <string name="judul">judul</string>
+    <string name="date">date</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="genre">genre</string>
+    <string name="description">Description</string>
+    <string name="rating">10</string>
+</resources>
