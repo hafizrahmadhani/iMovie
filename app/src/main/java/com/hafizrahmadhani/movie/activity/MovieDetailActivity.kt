@@ -1,9 +1,9 @@
 package com.hafizrahmadhani.movie.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
@@ -19,13 +19,6 @@ import kotlinx.android.synthetic.main.item_movie.*
 import kotlinx.coroutines.InternalCoroutinesApi
 
 class MovieDetailActivity : AppCompatActivity() {
-
-    companion object {
-        const val extraType ="extra_type"
-        const val extraMovie = "extra_movie"
-        const val posterSize = "https://image.tmdb.org/t/p/w300/"
-        const val imageSize = "https://image.tmdb.org/t/p/w500/"
-    }
 
     private lateinit var binding: ActivityMovieDetailBinding
     private lateinit var viewModelDetailMovie : ViewModelDetailMovie
@@ -106,5 +99,12 @@ class MovieDetailActivity : AppCompatActivity() {
             type
         )
 
+    }
+
+    companion object {
+        const val extraType = "extra_type"
+        const val extraMovie = "extra_movie"
+        const val posterSize = "https://image.tmdb.org/t/p/w300/"
+        const val imageSize = "https://image.tmdb.org/t/p/w500/"
     }
 }
